@@ -1,0 +1,42 @@
+
+body {
+	background: #4F6D7A ; 
+	color: #4F6D7A;
+}
+
+.center {
+    padding: 10px;
+}
+
+#quoteTitle {
+	width: 800px;
+	border-radius: 05px;
+	box-shadow: 0px 0px 1px black;
+	background: #000;
+	border-left-style: solid;
+	border-left-width: 10px;
+	background: #fff;
+
+}
+
+#welcomeMessage {
+}
+
+#holyBox {
+	width:800px;
+	padding-top: 50px;
+	margin:0 auto;
+	background: #EAEAEA;
+	
+}
+
+#quoteText {
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+}
+
+#quoteAuthor {
+	font-family: 'Inconsolata', sans-serif;
+	text-align: left;
+	padding: 10px;
+}

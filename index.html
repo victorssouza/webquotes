@@ -1,0 +1,38 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Cabin|Dosis" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body onload="javascript:getQuote();">
+		
+	<div id="holyBox" align="center" class='container center'>
+		<div><h1 id="welcomeMessage">What are we thinking?</h1><br></div>
+		
+		<div id="quoteTitle" class="ui raised very padded text container segment">
+			<div id="quoteBox" align="justify" class="ui one column grid">
+				
+				<div><i class='quote big left icon'></i></div><p align="justify" id="quoteText">  </p>
+				<div><br><br/><p align="right" id="quoteAuthor" style="font-size:12px">  </p></div>
+			</div>
+		</div>
+			
+		<div class="ui center aligned basic segment buttons">
+			<button onClick="javascript:shareTwitter();"  class="ui small twitter button "><i class="twitter icon "></i>Share</button>
+			<button onClick="javascript:getQuote();" class="ui small button teal"><i class="refresh icon"></i>Refresh</button>
+		</div>
+	</div>
+	
+	<div class="small ui vertical buttons">
+		<button onclick="window.open('https://www.linkedin.com/in/jvictorssouza?trk=nav_responsive_tab_profile_pic')" class="ui circular linkedin icon button"><i class="linkedin icon"></i></button>
+		<button onclick="window.open('https://www.facebook.com/jvictorssouza')" class="ui circular facebook icon button"><i class="facebook f icon"></i></button>
+		<button onclick="window.open('https://github.com/victorssouza')" class="ui circular icon button"><i class="github icon"></i></button>
+	</div>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="semantic/dist/semantic.min.js"></script>
+<script src="quote.js"></script>
+</body>
+</html>
